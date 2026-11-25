@@ -1,0 +1,179 @@
+
+/* general styling */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* shared navigation */
+
+.site-nav {
+  text-align: center;
+  background-color: #222;
+  padding: 1rem;
+}
+
+.site-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.site-nav li {
+  display: inline-block;
+  margin: 0 1.25rem;
+}
+
+.site-nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.site-nav a:hover {
+  color: #f4c542;
+}
+
+/* home page fluid layout */
+
+/* Style 1: Fluid page layout */
+.home .page-container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 2rem auto;
+}
+
+/* Style 2: Main heading appearance */
+.home h1 {
+  text-align: center;
+  color: #25476a;
+  font-size: 2.5rem;
+}
+
+/* Style 3: Section heading appearance */
+.home h2 {
+  color: #315f86;
+  border-bottom: 2px solid #315f86;
+  padding-bottom: 0.4rem;
+}
+
+/* Style 4: Paragraph appearance */
+.home p {
+  font-size: 1.05rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+/* Style 5: Image appearance */
+.home img {
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+  margin: 0.5rem;
+  border: 3px solid #315f86;
+  border-radius: 10px;
+}
+
+/* Style 6: Video appearance */
+.home video {
+  max-width: 100%;
+  border: 3px solid #315f86;
+  border-radius: 8px;
+}
+
+/* resume page */
+
+/* Style 1: Fixed width page layout */
+.resume .page-container {
+  width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+}
+
+/* Style 2: Main heading appearance */
+.resume h1 {
+  text-align: center;
+  color: #17365d;
+  border-bottom: 3px solid #17365d;
+  padding-bottom: 1rem;
+}
+
+/* Style 3: Section heading appearance */
+.resume h2 {
+  color: #254f77;
+  background-color: #e6eef5;
+  padding: 0.5rem;
+  border-left: 5px solid #254f77;
+}
+
+/* Style 4: Paragraph appearance */
+.resume p {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  color: #333;
+}
+
+/* Style 5: List appearance */
+.resume ul {
+  padding-left: 2rem;
+}
+
+.resume li {
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+/* hobbies pages, fluid layout */
+
+/* Style 1: Fluid page layout */
+.personal .page-container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 2rem auto;
+}
+
+/* Style 2: Main heading appearance */
+.personal h1 {
+  text-align: center;
+  color: #633b78;
+  font-size: 2.4rem;
+}
+
+/* Style 3: Section heading appearance */
+.personal h2 {
+  color: #754b91;
+  border-bottom: 2px solid #b18ac7;
+  padding-bottom: 0.4rem;
+}
+
+/* Style 4: Paragraph appearance */
+.personal p {
+  color: #333;
+  font-size: 1.05rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Style 5: List appearance */
+.personal ul {
+  background-color: #f3edf7;
+  padding: 1rem 1rem 1rem 2.5rem;
+  border-radius: 8px;
+}
+
+.personal li {
+  margin-bottom: 0.4rem;
+}
+
+.personal h3,
+.personal h4 {
+  color: #754b91;
+}
