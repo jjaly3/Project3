@@ -177,3 +177,131 @@ body {
 .personal h4 {
   color: #754b91;
 }
+
+/* Map page styling */
+
+.map-page .page-container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 2rem auto;
+}
+
+.map-page h1 {
+  text-align: center;
+  color: #25476a;
+}
+
+#map {
+  width: 100%;
+  height: 400px;
+  margin: 2rem auto;
+  border: 3px solid #315f86;
+  border-radius: 10px;
+}
+
+button {
+  background-color: #315f86;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #25476a;
+}
+
+
+/* MOBILE FIRST DEFAULT STYLING */
+
+/* Navigation for smaller screens */
+.site-nav li {
+  margin: 0.5rem;
+}
+
+.site-nav a {
+  font-size: 0.9rem;
+}
+
+.resume .page-container {
+  width: 90%;
+  max-width: 900px;
+}
+
+
+/* First media query: tablets*/
+/* Applies to screens 600px and wider */
+
+@media screen and (min-width: 600px) {
+
+    /* Change 1: Increase navigation spacing */
+    .site-nav li {
+        margin: 0 1rem;
+    }
+
+    /* Change 2: Increase navigation font */
+    .site-nav a {
+        font-size: 1.05rem;
+    }
+
+    /* Change 3: Increase page width */
+    .home .page-container,
+    .personal .page-container {
+        width: 85%;
+    }
+
+    /* Change 4: Increase paragraph font size */
+    .home p,
+    .personal p {
+        font-size: 1.1rem;
+    }
+
+    /* Change 5: Increase map height */
+    #map {
+        height: 450px;
+    }
+
+}
+
+
+/* Second media query: desktops */
+/* Applies to screens 900px and wider */
+
+@media screen and (min-width: 900px) {
+
+    /* Change 1: Increase navigation padding */
+    .site-nav {
+        padding: 1.25rem;
+    }
+
+    /* Change 2: Increase navigation font */
+    .site-nav a {
+        font-size: 1.1rem;
+    }
+
+    /* Change 3: Set home page width */
+    .home .page-container {
+        width: 90%;
+        max-width: 1100px;
+    }
+
+    /* Change 4: Set resume page width */
+    .resume .page-container {
+        width: 900px;
+        padding: 2rem;
+    }
+
+    /* Change 5: Increase heading size */
+    .home h1,
+    .personal h1 {
+        font-size: 2.5rem;
+    }
+
+    /* Change 6: Increase map height */
+    #map {
+        height: 500px;
+    }
+
+}
